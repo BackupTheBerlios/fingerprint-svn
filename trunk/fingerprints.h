@@ -60,7 +60,7 @@ KN_FP_MASK def_kn_fp_mask[]=
 	{"client_Miranda,ICQJ",		"Miranda*ICQ v0.3*",	"Miranda IM(ICQJ)",	NULL, IDI_CLIENTMIRANDA_ICQJ,0xFF,6},
 	{"client_Miranda,ICQ_ISee",	"Miranda*ICQ v0.4*",	"Miranda IM(ICQ_ISee)",	NULL, IDI_CLIENTMIRANDA_ICQISEE,0xFF,6},
 	{"client_Miranda AimOscar",	"*AimOscar*",		"Miranda AimOscar",	NULL, IDI_CLIENTMIRANDA_AIMOSCAR,0xFF,6},
-	{"client_Miranda",		"Miranda*",		"Miranda IM",		NULL, IDI_CLIENTMIRANDA,0xFF,6},
+	{"client_Miranda",          "Miranda*",		"Miranda IM",		NULL, IDI_CLIENTMIRANDA,0xFF,6},
 
 	{"client_Gaim",			"*Gaim*",		"Gaim",			NULL, IDI_CLIENTGAIM,0xFF,5},
 	{"client_Trillian",		"Trillian*",		"Trillian",		NULL, IDI_CLIENTTRILLIAN,0xFF,5},
@@ -163,7 +163,11 @@ KN_FP_MASK def_kn_fp_mask[]=
 	{"client_Coccinella",		"*Coccinella*",		"Coccinella",		NULL, IDI_CLIENTCOCCINELLA,0xFF,2},
 	{"client_GAJIM",		"*GAJIM*",		"GAJIM",		NULL, IDI_CLIENTGAJIM,0xFF,2},
 	{"client_webmessenger",		"Webmessenger*",	"Webmessenger", 	NULL, IDI_CLIENTWEBMESSENGER,0xFF,5},
-	{"client_Unknown",		"*?*",			"Unknown",		NULL, IDI_CLIENTUNKNOWN,0xFF,5},			// unknown should be allways last
+	{"client_GTalk",		"*Talk*",	"GTalk",			NULL, IDI_CLIENTGTALK,0xFF,2},
+	{"client_Gmail",		"*gmail*",	"Gmail",			NULL, IDI_CLIENTGMAIL,0xFF,2},
+	{"client_Unknown",		"*?*",			"Unknown",		NULL, IDI_CLIENTUNKNOWN,0xFF,5},
+
+    			// unknown should be allways last
 };
 
 #define DEFAULT_KN_FP_MASK_COUNT sizeof(def_kn_fp_mask)/sizeof(def_kn_fp_mask[0])   //should contain the count of records above

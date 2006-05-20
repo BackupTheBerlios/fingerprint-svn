@@ -130,6 +130,8 @@ IDI_CLIENTAIMEXPRESS	ICON                    "res\\Aim Express.ico"
 IDI_CLIENTNAIM		ICON                    "res\\Naim.ico"
 IDI_CLIENTSKYPE2	ICON                    "res\\Skype2.ico"
 IDI_CLIENTSKYPE		ICON                    "res\\Skype.ico"
+IDI_CLIENTGTALK         ICON                    "res\\GTalk.ico"
+IDI_CLIENTGMAIL         ICON                    "res\\Gmail.ico"
 /////////////////////////////////////////////////////////////////////////////
 //
 // Version
