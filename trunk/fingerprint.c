@@ -31,34 +31,21 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
 
 //Start of header
-// Native include
 #include <windows.h>
 #include <stdio.h>
-
-//required Miranda SDK (files are in include subfolder)
-#include "include/newpluginapi.h"
-#include "include/m_cluiframes.h"
-#include "include/m_database.h"
-
-//required iconlib header (not in Miranda SDK)
-#include "include/m_icolib.h"
-
-//resource definition header  
+#include <newpluginapi.h>
+#include <m_clist.h>
+#include <m_cluiframes.h>
+#include <m_skin.h>
+#include <m_system.h>
+#include <m_database.h>
+#include <m_protocols.h>
+#include <m_langpack.h>
+#include <m_utils.h>
+#include <m_options.h>
+#include "m_icolib.h"
 #include "resource.h"
-
-//Fingerprint services definition header
 #include "m_fingerprint.h"
-
-//Definition from other Miranda IM SDK
-#define ME_SYSTEM_MODULESLOADED       "Miranda/System/ModulesLoaded"
-#define ME_SYSTEM_OKTOEXIT            "Miranda/System/OkToExitEvent"
-#define ME_OPT_INITIALISE             "Opt/Initialise"
-#define MS_UTILS_PATHTORELATIVE       "Utils/PathToRelative"
-#define MS_PROTO_GETCONTACTBASEPROTO  "Proto/GetContactBaseProto"
-#define MS_LANGPACK_TRANSLATESTRING   "LangPack/TranslateString"
-#define Translate(s)   ((char*)CallService(MS_LANGPACK_TRANSLATESTRING,0,(LPARAM)(s)))
-
-// End of SDK headers include
 
 HANDLE hExtraImageListRebuild;       // hook event handle for ME_CLIST_EXTRA_LIST_REBUILD
 HANDLE hExtraImageApply;             // hook event handle for ME_CLIST_EXTRA_IMAGE_APPLY
@@ -79,9 +66,9 @@ int ServiceSameClients(WPARAM wParam, LPARAM lParam);
 int ServiceGetClientIcon(WPARAM wParam, LPARAM lParam);
 
 int ApplyFingerprintImage(HANDLE hContact,char *MirVer);
-BOOL __inline WildCompare(char * name, char * mask);
+BOOL _inline WildCompare(char * name, char * mask);
 BOOL WildCompareProc(char * name, char * mask);
-HICON LoadIconFromExternalFile(char *filename,int i,BOOL UseLibrary,BOOL registerit,char *IconName,int flag,char *Description,int internalidx);
+HICON LoadIconFromExternalFile(char *filename,int i,boolean UseLibrary,boolean registerit,char *IconName,int flag,char *Description,int internalidx);
 
 
 typedef struct _knfpMask 
@@ -95,8 +82,9 @@ typedef struct _knfpMask
   int	SectionFlag;
 }KN_FP_MASK;
 
-//Including of fingerprint masks
+
 #include "fingerprints.h"
+
 //End of header
 
 HINSTANCE g_hInst;
@@ -106,7 +94,7 @@ PLUGINLINK *pluginLink;
 PLUGININFO pluginInfo={
   sizeof(PLUGININFO),
     "Fingerprint",
-    PLUGIN_MAKE_VERSION(0,0,0,22),
+    PLUGIN_MAKE_VERSION(0,0,0,23),
     "Fingerprint (client version) icons module set extra icon of your buddyes according to their client version",
     "Artem Shpynov, Angeli-Ka",
     "shpynov@nm.ru",
@@ -149,7 +137,37 @@ int __declspec(dllexport) Unload(void)
 */
 int OnModulesLoaded(WPARAM wParam, LPARAM lParam)
 {
-  CallService("Update/RegisterFL", (WPARAM)2594, (LPARAM)&pluginInfo);
+
+/* Updater support start  */
+/*	static Update upd = {0};
+	static char szCurrentVersion[30];
+
+	// updater plugin support
+
+	upd.cbSize = sizeof(upd);
+	upd.szComponentName = "Fingerprint";
+	upd.pbVersion = (BYTE *)CreateVersionStringPlugin(&pluginInfo, szCurrentVersion);
+	upd.cpbVersion = strlen((char *)upd.pbVersion);
+	upd.szVersionURL = "http://www.miranda-im.org/download/details.php?action=viewfile&id=2594";
+	upd.szUpdateURL = "http://www.miranda-im.org/download/feed.php?dlfile=2594";;
+	upd.pbVersionPrefix = (BYTE *)"<span class=""fileNameHeader"">Fingerprint ";
+
+	upd.szBetaUpdateURL = "http://shpynov.nm.ru/alpha/fingerprint.zip";
+	upd.szBetaVersionURL = "http://shpynov.nm.ru/alpha/index.dhtml";
+	upd.pbBetaVersionPrefix = (BYTE *)"<a href=""fingerprint.zip"">version ";
+	upd.pbVersion = szCurrentVersion;
+	upd.cpbVersion = lstrlenA(szCurrentVersion);
+
+	upd.cpbVersionPrefix = strlen((char *)upd.pbVersionPrefix);
+	upd.cpbBetaVersionPrefix = strlen((char *)upd.pbBetaVersionPrefix);
+
+	if(ServiceExists(MS_UPDATE_REGISTER))
+		CallService(MS_UPDATE_REGISTER, 0, (LPARAM)&upd);
+	*/
+	CallService("Update/RegisterFL", (WPARAM)2594, (LPARAM)&pluginInfo);
+	
+	/*********************************************************************/
+
   //Hook necessary events
   hExtraImageListRebuild =  HookEvent(ME_CLIST_EXTRA_LIST_REBUILD,OnExtraIconListRebuild);
   hExtraImageApply =        HookEvent(ME_CLIST_EXTRA_IMAGE_APPLY, OnExtraImageApply);
@@ -274,7 +292,7 @@ int OnContactSettingChanged(WPARAM wParam, LPARAM lParam)
 //   Otherwise it will cause gdi resources leaking.
 //   So nowtime it is commented out
 
-HICON LoadIconFromExternalFile(char *filename,int i,BOOL UseLibrary,BOOL registerit,char *IconName, int flag, char *Description,int internalidx)
+HICON LoadIconFromExternalFile(char *filename,int i,boolean UseLibrary,boolean registerit,char *IconName, int flag, char *Description,int internalidx)
 {
   char szPath[MAX_PATH],szMyPath[MAX_PATH];//, szFullPath[MAX_PATH],*str;
   HICON hIcon=NULL;
@@ -351,7 +369,7 @@ HICON LoadIconFromExternalFile(char *filename,int i,BOOL UseLibrary,BOOL registe
 *   Mask can contain several submasks. In this case each submask (including first)
 *   should start from '|' e.g: "|first*submask|second*mask".
 */
-BOOL __inline WildCompare(char * name, char * mask)
+BOOL _inline WildCompare(char * name, char * mask)
 {
 
   if (*mask!='|') return WildCompareProc(name,mask);

@@ -90,7 +90,7 @@ IDI_CLIENTBOMBUS        ICON                    "res\\Bombus.ico"
 IDI_CLIENTBITLBEE       ICON                    "res\\BitlBee.ico"
 IDI_CLIENTWTW           ICON                    "res\\WTW.ico"
 IDI_CLIENTTLEN          ICON                    "res\\Tlen.ico"
-IDI_CLIENTJABBER_MESSENGER ICON                    "res\\Jabber messenger.ico"
+IDI_CLIENTJABBER_MESSENGER ICON                  "res\\Jabber messenger.ico"
 IDI_EASY_MESSAGE        ICON                    "res\\Easy Message.ico"
 IDI_CLIENTGOSSIP        ICON                    "res\\Gossip.ico"
 IDI_CLIENTGABBER        ICON                    "res\\Gabber.ico"
@@ -108,24 +108,36 @@ IDI_CLIENTJIMM          ICON                    "res\\Jimm.ico"
 IDI_CLIENTUIM           ICON                    "res\\uIM.ico"
 IDI_CLIENTKONNEKT       ICON                    "res\\konnekt.ico"
 IDI_CLIENTAIMTRITON     ICON                    "res\\AIM Triton.ico"
-IDI_CLIENTAIMSMS        ICON                    "res\\AimSMS.ico"
-IDI_CLIENTAIM4          ICON                    "res\\Aim4.ico"
-IDI_CLIENTAIM5          ICON                    "res\\Aim5.ico"
-IDI_CLIENTCOLIBRY       ICON                    "res\\Colibry.ico"
-IDI_CLIENTGTALK         ICON                    "res\\GTalk.ico"
-IDI_CLIENTMIRANDA_AIMOSCAR ICON                    "res\\Miranda AimOscar.ico"
-IDI_CLIENTJETI          ICON                    "res\\JETI.ico"
-IDI_CLIENTMCHAT         ICON                    "res\\mChat.ico"
-IDI_CLIENTICQ_BIGMIR    ICON                    "res\\Icq Bigmir)net.ico"
-
+IDI_CLIENTAIMSMS	ICON                    "res\\AimSMS.ico"
+IDI_CLIENTAIM4		ICON                    "res\\Aim4.ico"
+IDI_CLIENTAIM5		ICON                    "res\\Aim5.ico"
+IDI_CLIENTCOLIBRY	ICON                    "res\\Colibry.ico"
+IDI_CLIENTMIRANDA_AIMOSCAR ICON                 "res\\Miranda AimOscar.ico"
+IDI_CLIENTJETI		ICON                    "res\\JETI.ico"
+IDI_CLIENTMCHAT		ICON                    "res\\mChat.ico"
+IDI_CLIENTICQ_BIGMIR 	ICON		        "res\\Icq Bigmir)net.ico"
+IDI_CLIENTICOLITE51	ICON                    "res\\LiteIcq5.1.ico"
+IDI_CLIENTAUTTM		ICON                    "res\\Ayttm.ico"
+IDI_CLIENTNANOICQ	ICON                    "res\\Nanoicq.ico"
+IDI_CLIENTCOCCINELLA	ICON                    "res\\Coccinella.ico"
+IDI_CLIENTINSTAN_T	ICON                    "res\\Instan-t.ico"
+IDI_CLIENTGAJIM		ICON                    "res\\Gajim.ico"
+IDI_CLIENTPROTEUS	ICON                    "res\\Proteus.ico"
+IDI_CLIENTAIMGPRS	ICON                    "res\\AimGPRS.ico"
+IDI_CLIENTAIMTOC	ICON                    "res\\Aim Toc.ico"
+IDI_CLIENTMINIAIM	ICON                    "res\\Miniaim.ico"
+IDI_CLIENTAIMEXPRESS	ICON                    "res\\Aim Express.ico"
+IDI_CLIENTNAIM		ICON                    "res\\Naim.ico"
+IDI_CLIENTSKYPE2	ICON                    "res\\Skype2.ico"
+IDI_CLIENTSKYPE		ICON                    "res\\Skype.ico"
 /////////////////////////////////////////////////////////////////////////////
 //
 // Version
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 0,0,0,22
- PRODUCTVERSION 0,0,0,22
+ FILEVERSION 0,0,0,23
+ PRODUCTVERSION 0,0,0,23
  FILEFLAGSMASK 0x17L
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -141,12 +153,12 @@ BEGIN
         BLOCK "041904b0"
         BEGIN
             VALUE "FileDescription", "Fingerprint client version icons module"
-            VALUE "FileVersion", "0, 0, 0, 22"
+            VALUE "FileVersion", "0, 0, 0, 23"
             VALUE "InternalName", "fingerprint"
             VALUE "LegalCopyright", "Copyright (C) 2006 Artem Shpynov, icons by Angeli-Ka"
             VALUE "OriginalFilename", "fingerprint.dll"
             VALUE "ProductName", "Fingerprint client version icons module"
-            VALUE "ProductVersion", "0, 0, 0, 22"
+            VALUE "ProductVersion", "0, 0, 0, 23"
         END
     END
     BLOCK "VarFileInfo"
