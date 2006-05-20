@@ -1,0 +1,210 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_CLIENTUNKNOWN       ICON                    "res\\Unknown.ico"
+IDI_CLIENTMIRANDA       ICON                    "res\\Miranda.ico"
+IDI_CLIENTAIM           ICON                    "res\\Aim.ico"
+IDI_CLIENTGAIM          ICON                    "res\\Gaim.ico"
+IDI_CLIENTTRILLIAN      ICON                    "res\\Trillian.ico"
+IDI_CLIENTKOPETE        ICON                    "res\\Kopete.ico"
+IDI_CLIENTGNOMEICU      ICON                    "res\\Gnomeicu.ico"
+IDI_CLIENTRQ            ICON                    "res\\&RQ.ico"
+IDI_CLIENTQIP           ICON                    "res\\QIP.ico"
+IDI_CLIENTIM2           ICON                    "res\\IM2.ico"
+IDI_CLIENTIMPLUS        ICON                    "res\\IM+.ico"
+IDI_CLIENTPSI           ICON                    "res\\PSI.ico"
+IDI_CLIENTYAMIGO        ICON                    "res\\Yamigo.ico"
+IDI_CLIENTALICQ         ICON                    "res\\AlIcq.ico"
+IDI_CLIENTICQMAC        ICON                    "res\\IcqMac.ico"
+IDI_CLIENTLICQ          ICON                    "res\\Licq.ico"
+IDI_CLIENTSIM           ICON                    "res\\Sim.ico"
+IDI_CLIENTNICQ          ICON                    "res\\NICQ.ico"
+IDI_CLIENTAGILE         ICON                    "res\\Agile Mobile.ico"
+IDI_CLIENTMOBICQ        ICON                    "res\\MobiCQ.ico"
+IDI_CLIENTSTICQ         ICON                    "res\\Sticq.ico"
+IDI_CLIENTICQ2000       ICON                    "res\\Icq2000.ico"
+IDI_CLIENTICQ2001       ICON                    "res\\icq2001.ico"
+IDI_CLIENTICQ2002       ICON                    "res\\icq2002.ico"
+IDI_CLIENTICQ2003       ICON                    "res\\icq2003.ico"
+IDI_CLIENTICQLITE       ICON                    "res\\LiteIcq.ico"
+IDI_CLIENTICQLITE4      ICON                    "res\\LiteIcq4.ico"
+IDI_CLIENTICQLITE5      ICON                    "res\\LiteIcq5.ico"
+IDI_CLIENTWEBICQ        ICON                    "res\\WebIcq.ico"
+IDI_CLIENTICQGOJ        ICON                    "res\\Icq2goJ.ico"
+IDI_CLIENTICQGOF        ICON                    "res\\Icq2gof.ico"
+IDI_CLIENTCENTERICQ     ICON                    "res\\Center.ico"
+IDI_CLIENTICQ2X         ICON                    "res\\ICQ2x.ico"
+IDI_CLIENTMICQ          ICON                    "res\\Micq.ico"
+IDI_CLIENTLIBICQ2000    ICON                    "res\\LibIcq2000.ico"
+IDI_CLIENTKXICQ2        ICON                    "res\\KXIcq.ico"
+IDI_CLIENTSTRICQ        ICON                    "res\\Stricq.ico"
+IDI_CLIENTVICQ          ICON                    "res\\Vicq.ico"
+IDI_CLIENTYSM           ICON                    "res\\Ysm.ico"
+IDI_CLIENTSPAMBOT       ICON                    "res\\Spambot.ico"
+IDI_CLIENTJAJC          ICON                    "res\\Jajc.ico"
+IDI_CLIENTTKABBER       ICON                    "res\\Tkabber.ico"
+IDI_CLIENTGIZMO         ICON                    "res\\gizmo.ico"
+IDI_CLIENTQNEXT         ICON                    "res\\Qnext.ico"
+IDI_CLIENTWEBMESSENGER  ICON                    "res\\webmessenger.ico"
+IDI_CLIENTEXODUS        ICON                    "res\\Exodus.ico"
+IDI_CLIENTGUSH          ICON                    "res\\Gush.ico"
+IDI_CLIENTPANDION       ICON                    "res\\Pandion.ico"
+IDI_CLIENTSMARTICQ      ICON                    "res\\SmartIcq.ico"
+IDI_CLIENTICQ_NETVIGATOR ICON                    "res\\Icq netvigator.ico"
+IDI_CLIENTICQ_RAMBLER   ICON                    "res\\Icq rambler.ico"
+IDI_CLIENTGG            ICON                    "res\\GG.ico"
+IDI_CLIENTICQ_PRO7      ICON                    "res\\Icq pro7.ico"
+IDI_CLIENTICQ_ABV       ICON                    "res\\Icq ABV.ico"
+IDI_CLIENTTICQ          ICON                    "res\\TICQ.ico"
+IDI_CLIENTICAT          ICON                    "res\\ICat.ico"
+IDI_CLIENTR_and_Q       ICON                    "res\\R&Q.ico"
+IDI_CLIENTCOMPAD        ICON                    "res\\Compad.ico"
+IDI_CLIENTBOMBUS        ICON                    "res\\Bombus.ico"
+IDI_CLIENTBITLBEE       ICON                    "res\\BitlBee.ico"
+IDI_CLIENTWTW           ICON                    "res\\WTW.ico"
+IDI_CLIENTTLEN          ICON                    "res\\Tlen.ico"
+IDI_CLIENTJABBER_MESSENGER ICON                    "res\\Jabber messenger.ico"
+IDI_EASY_MESSAGE        ICON                    "res\\Easy Message.ico"
+IDI_CLIENTGOSSIP        ICON                    "res\\Gossip.ico"
+IDI_CLIENTGABBER        ICON                    "res\\Gabber.ico"
+IDI_CLIENTNITRO         ICON                    "res\\Nitro.ico"
+IDI_CLIENTJABBERWOCKY   ICON                    "res\\Jabberwocky.ico"
+IDI_CLIENTNEOS_MT       ICON                    "res\\Neos mt.ico"
+IDI_CLIENTFIRE          ICON                    "res\\Fire.ico"
+IDI_CLIENTMRA           ICON                    "res\\Mailru.ico"
+IDI_CLIENTICHAT         ICON                    "res\\iChat.ico"
+IDI_CLIENTICQ4POCKET    ICON                    "res\\ICQ 4 pocket.ico"
+IDI_CLIENTMIRANDA_ICQBM ICON                    "res\\Miranda BM.ico"
+IDI_CLIENTMIRANDA_ICQISEE ICON                    "res\\Miranda ISee.ico"
+IDI_CLIENTMIRANDA_ICQJ  ICON                    "res\\Miranda ICQJ.ico"
+IDI_CLIENTJIMM          ICON                    "res\\Jimm.ico"
+IDI_CLIENTUIM           ICON                    "res\\uIM.ico"
+IDI_CLIENTKONNEKT       ICON                    "res\\konnekt.ico"
+IDI_CLIENTAIMTRITON     ICON                    "res\\AIM Triton.ico"
+IDI_CLIENTAIMSMS        ICON                    "res\\AimSMS.ico"
+IDI_CLIENTAIM4          ICON                    "res\\Aim4.ico"
+IDI_CLIENTAIM5          ICON                    "res\\Aim5.ico"
+IDI_CLIENTCOLIBRY       ICON                    "res\\Colibry.ico"
+IDI_CLIENTGTALK         ICON                    "res\\GTalk.ico"
+IDI_CLIENTMIRANDA_AIMOSCAR ICON                    "res\\Miranda AimOscar.ico"
+IDI_CLIENTJETI          ICON                    "res\\JETI.ico"
+IDI_CLIENTMCHAT         ICON                    "res\\mChat.ico"
+IDI_CLIENTICQ_BIGMIR    ICON                    "res\\Icq Bigmir)net.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,0,0,22
+ PRODUCTVERSION 0,0,0,22
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904b0"
+        BEGIN
+            VALUE "FileDescription", "Fingerprint client version icons module"
+            VALUE "FileVersion", "0, 0, 0, 22"
+            VALUE "InternalName", "fingerprint"
+            VALUE "LegalCopyright", "Copyright (C) 2006 Artem Shpynov, icons by Angeli-Ka"
+            VALUE "OriginalFilename", "fingerprint.dll"
+            VALUE "ProductName", "Fingerprint client version icons module"
+            VALUE "ProductVersion", "0, 0, 0, 22"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x419, 1200
+    END
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
