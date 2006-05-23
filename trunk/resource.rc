@@ -131,6 +131,7 @@ IDI_CLIENTSKYPE2	       ICON                    "res\\Skype2.ico"
 IDI_CLIENTSKYPE		       ICON                    "res\\Skype.ico"
 IDI_CLIENTGTALK            ICON                    "res\\GTalk.ico"
 IDI_CLIENTGMAIL            ICON                    "res\\Gmail.ico"
+IDI_CLIENTCONFERENCE       ICON                    "res\\GTalk conference bot.ico"
 /////////////////////////////////////////////////////////////////////////////
 //
 // Version

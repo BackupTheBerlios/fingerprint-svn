@@ -161,9 +161,11 @@ KN_FP_MASK def_kn_fp_mask[]=
 	{"client_JETI",			   "*JETI*",		       "JETI",			        NULL, IDI_CLIENTJETI,0xFF,2},
 	{"client_Coccinella",	   "*Coccinella*",		   "Coccinella",		    NULL, IDI_CLIENTCOCCINELLA,0xFF,2},
 	{"client_GAJIM",		   "*GAJIM*",		       "GAJIM",		            NULL, IDI_CLIENTGAJIM,0xFF,2},
-	{"client_webmessenger",	   "Webmessenger*",	       "Webmessenger", 	        NULL, IDI_CLIENTWEBMESSENGER,0xFF,5},
 	{"client_GTalk",		   "*Talk*",	           "GTalk",			        NULL, IDI_CLIENTGTALK,0xFF,2},
 	{"client_Gmail",		   "*gmail*",	           "Gmail",			        NULL, IDI_CLIENTGMAIL,0xFF,2},
+	{"client_Conference bot",  "*conference*",	       "Conference bot",		NULL, IDI_CLIENTCONFERENCE,0xFF,2},
+
+	{"client_webmessenger",	   "Webmessenger*",	       "Webmessenger", 	        NULL, IDI_CLIENTWEBMESSENGER,0xFF,5},
 	{"client_Unknown",		   "*?*",			       "Unknown",		        NULL, IDI_CLIENTUNKNOWN,0xFF,5},
 
     			// unknown should be allways last

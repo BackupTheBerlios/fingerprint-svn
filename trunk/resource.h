@@ -109,6 +109,7 @@
 #define IDI_CLIENTGAJIM	                623
 #define IDI_CLIENTGTALK                 624
 #define IDI_CLIENTGMAIL                 625
+#define IDI_CLIENTCONFERENCE            626
 
 #define	IDI_CLIENTWEBMESSENGER		    700
 #define IDI_CLIENTMRA			        701
