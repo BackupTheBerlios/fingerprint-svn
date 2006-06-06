@@ -80,7 +80,6 @@ IDI_CLIENTSMARTICQ         ICON                    "res\\SmartIcq.ico"
 IDI_CLIENTICQ_NETVIGATOR   ICON                    "res\\Icq netvigator.ico"
 IDI_CLIENTICQ_RAMBLER      ICON                    "res\\Icq rambler.ico"
 IDI_CLIENTGG               ICON                    "res\\GG.ico"
-IDI_CLIENTICQ_PRO7         ICON                    "res\\Icq pro7.ico"
 IDI_CLIENTICQ_ABV          ICON                    "res\\Icq ABV.ico"
 IDI_CLIENTTICQ             ICON                    "res\\TICQ.ico"
 IDI_CLIENTICAT             ICON                    "res\\ICat.ico"
@@ -114,7 +113,6 @@ IDI_CLIENTCOLIBRY	       ICON                    "res\\Colibry.ico"
 IDI_CLIENTMIRANDA_AIMOSCAR ICON                    "res\\Miranda AimOscar.ico"
 IDI_CLIENTJETI		       ICON                    "res\\JETI.ico"
 IDI_CLIENTMCHAT		       ICON                    "res\\mChat.ico"
-IDI_CLIENTICQ_BIGMIR 	   ICON		               "res\\Icq Bigmir)net.ico"
 IDI_CLIENTICQLITE51   	   ICON                    "res\\Icq 5.1.ico"
 IDI_CLIENTAUTTM		       ICON                    "res\\Ayttm.ico"
 IDI_CLIENTNANOICQ	       ICON                    "res\\Nanoicq.ico"
@@ -132,14 +130,15 @@ IDI_CLIENTSKYPE		       ICON                    "res\\Skype.ico"
 IDI_CLIENTGTALK            ICON                    "res\\GTalk.ico"
 IDI_CLIENTGMAIL            ICON                    "res\\Gmail.ico"
 IDI_CLIENTCONFERENCE       ICON                    "res\\GTalk conference bot.ico"
+IDI_CLIENTSPIK             ICON                    "res\\Spik.ico"
 /////////////////////////////////////////////////////////////////////////////
 //
 // Version
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 0,0,0,23
- PRODUCTVERSION 0,0,0,23
+ FILEVERSION 0,0,0,24
+ PRODUCTVERSION 0,0,0,24
  FILEFLAGSMASK 0x17L
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -155,12 +154,12 @@ BEGIN
         BLOCK "041904b0"
         BEGIN
             VALUE "FileDescription", "Fingerprint client version icons module"
-            VALUE "FileVersion", "0, 0, 0, 23"
+            VALUE "FileVersion", "0, 0, 0, 24"
             VALUE "InternalName", "fingerprint"
             VALUE "LegalCopyright", "Copyright (C) 2006 Artem Shpynov, icons by Angeli-Ka"
             VALUE "OriginalFilename", "fingerprint.dll"
             VALUE "ProductName", "Fingerprint client version icons module"
-            VALUE "ProductVersion", "0, 0, 0, 23"
+            VALUE "ProductVersion", "0, 0, 0, 24"
         END
     END
     BLOCK "VarFileInfo"

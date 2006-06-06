@@ -62,18 +62,15 @@
 #define IDI_CLIENTTICQ			        404
 #define IDI_CLIENTICAT			        405
 #define IDI_CLIENTR_and_Q		        406
-
-#define IDI_CLIENTICQ_NETVIGATOR	    409
-#define IDI_CLIENTICQ_RAMBLER		    410
-#define IDI_CLIENTICQ_PRO7		        411
-#define IDI_CLIENTQIP                   412
-#define IDI_CLIENTRQ                    413
-#define IDI_CLIENTICQMAC                414
-#define IDI_CLIENTNICQ                  415
-#define IDI_CLIENTSMARTICQ		        416
-#define IDI_CLIENTKXICO2		        417
-#define IDI_CLIENTICQ_BIGMIR		    418
-#define IDI_CLIENTNANOICQ               419
+#define IDI_CLIENTICQ_NETVIGATOR	    407
+#define IDI_CLIENTICQ_RAMBLER		    408
+#define IDI_CLIENTQIP                   409
+#define IDI_CLIENTRQ                    410
+#define IDI_CLIENTICQMAC                411
+#define IDI_CLIENTNICQ                  412
+#define IDI_CLIENTSMARTICQ		        413
+#define IDI_CLIENTKXICO2		        414
+#define IDI_CLIENTNANOICQ               415
 
 #define IDI_CLIENTCENTERICQ             500
 #define IDI_CLIENTICQ2X                 501
@@ -110,6 +107,7 @@
 #define IDI_CLIENTGTALK                 624
 #define IDI_CLIENTGMAIL                 625
 #define IDI_CLIENTCONFERENCE            626
+#define IDI_CLIENTSPIK                  627
 
 #define	IDI_CLIENTWEBMESSENGER		    700
 #define IDI_CLIENTMRA			        701
