@@ -23,7 +23,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 /************************************************************************/
 /*  Author: Artem Shpynov aka FYR     mailto:shpynov@nm.ru              */
 /*  icons by Angeli-Ka                                                  */
-/*  January 12, 2006													                          */
+/*  January 12, 2006													*/
 /************************************************************************/
 
 
@@ -97,7 +97,7 @@ KN_FP_MASK def_kn_fp_mask[]=
 	{"client_Colibry",		   "Colibry*",		        "Colibry",		        NULL, IDI_CLIENTCOLIBRY,0xFF,4},
 	{"client_Sticq",		   "Sticq*",		        "Sticq",		        NULL, IDI_CLIENTSTICQ,0xFF,4},
 	{"client_uIM",			   "uIM*",			        "uIM",		 	        NULL, IDI_CLIENTUIM,0xFF,4},
-	{"client_IMPLUS",		   "IMPLUS*",		        "IMPLUS",		        NULL, IDI_CLIENTIMPLUS,0xFF,4},
+	{"client_IMPLUS",		   "IMPLUS*|IM+*",		    "IMPLUS",		        NULL, IDI_CLIENTIMPLUS,0xFF,4},
 	{"client_YAMIGO",		   "YAMIGO*",		        "YAMIGO",		        NULL, IDI_CLIENTYAMIGO,0xFF,4},
 	{"client_Bombus", 		   "*Bombus*", 		        "Bombus", 		        NULL, IDI_CLIENTBOMBUS, 0xFF,4},
 	{"client_mChat", 		   "mChat*", 		        "mChat", 		        NULL, IDI_CLIENTMCHAT, 0xFF,4},
