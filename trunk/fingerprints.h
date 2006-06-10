@@ -79,6 +79,9 @@ KN_FP_MASK def_kn_fp_mask[]=
 	{"client_Instan-t",		    "Instan-t*",		    "Instan-t",		        NULL, IDI_CLIENTINSTAN_T,0xFF,5},
 	{"client_Skype v2.x",		"Skype*2*",       		"Skype v2.x",         	NULL, IDI_CLIENTSKYPE2,0xFF,5},
 	{"client_Skype",		    "Skype*",           	"Skype",		        NULL, IDI_CLIENTSKYPE,0xFF,5},
+	{"client_Yahoo v5.x",		"<Yahoo 6*",           	"Yahoo 5.x",		    NULL, IDI_CLIENTYAHOO5,0xFF,5},
+	{"client_Yahoo v6.x",		"Yahoo 6*",           	"Yahoo 6.x",		    NULL, IDI_CLIENTYAHOO6,0xFF,5},
+	{"client_Yahoo v7.x",		"Yahoo 7*",           	"Yahoo 7.x",		    NULL, IDI_CLIENTYAHOO7,0xFF,5},
 
 	{"client_AimSMS",		    "SMS*",			        "Aim SMS",		        NULL, IDI_CLIENTAIMSMS,0xFF,3},
 	{"client_Aim Triton",		"AIM*Triton*",		    "AIM Triton",		    NULL, IDI_CLIENTAIMTRITON,0xFF,3},

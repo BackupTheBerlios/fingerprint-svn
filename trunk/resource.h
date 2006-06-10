@@ -113,9 +113,9 @@
 #define IDI_CLIENTMRA			        701
 #define IDI_CLIENTSKYPE2		        702
 #define IDI_CLIENTSKYPE			        703
-
-
-
+#define IDI_CLIENTYAHOO6		        704
+#define IDI_CLIENTYAHOO7		        705
+#define IDI_CLIENTYAHOO5		        706
 
 
 
