@@ -8,6 +8,9 @@
 #define IDI_CLIENTMIRANDA_ICQISEE       13
 #define IDI_CLIENTMIRANDA_ICQBM         14
 #define IDI_CLIENTMIRANDA_AIMOSCAR      15
+#define IDI_CLIENTMIRANDA04             16
+#define IDI_CLIENTMIRANDA05             17
+#define IDI_CLIENTMIRANDA06             18
 
 #define IDI_CLIENTAIM                   100
 #define IDI_CLIENTAIMTRITON             101
@@ -36,6 +39,7 @@
 #define IDI_CLIENTAUTTM			        124
 #define IDI_CLIENTPROTEUS		        125
 #define IDI_CLIENTINSTAN_T		        126
+#define IDI_CLIENTTERRAIM               127
 
 #define IDI_CLIENTAGILE                 200
 #define IDI_CLIENTMOBICQ                201
@@ -109,15 +113,18 @@
 #define IDI_CLIENTCONFERENCE            626
 #define IDI_CLIENTSPIK                  627
 
-#define	IDI_CLIENTWEBMESSENGER		    700
-#define IDI_CLIENTMRA			        701
-#define IDI_CLIENTSKYPE2		        702
-#define IDI_CLIENTSKYPE			        703
-#define IDI_CLIENTYAHOO6		        704
-#define IDI_CLIENTYAHOO7		        705
-#define IDI_CLIENTYAHOO5		        706
+#define IDI_CLIENTMRA			        700
+#define IDI_CLIENTSKYPE2		        701
+#define IDI_CLIENTSKYPE			        702
+#define IDI_CLIENTYAHOO6		        703
+#define IDI_CLIENTYAHOO7		        704
+#define IDI_CLIENTYAHOO5		        705
 
-
+#define	IDI_CLIENTWEBMESSENGER		    800
+#define	IDI_CLIENTMSN4_5		        801
+#define	IDI_CLIENTMSN6		            802
+#define	IDI_CLIENTMSN7		            803
+#define	IDI_CLIENTMSN8		            804
 
 
 

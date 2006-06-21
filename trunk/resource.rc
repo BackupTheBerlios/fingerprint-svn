@@ -134,14 +134,22 @@ IDI_CLIENTSPIK             ICON                    "res\\Spik.ico"
 IDI_CLIENTYAHOO5           ICON                    "res\\Yahoo 5.ico"
 IDI_CLIENTYAHOO6           ICON                    "res\\Yahoo 6.ico"
 IDI_CLIENTYAHOO7           ICON                    "res\\Yahoo 7.ico"
+IDI_CLIENTMIRANDA04        ICON                    "res\\Miranda 04.ico"
+IDI_CLIENTMIRANDA05        ICON                    "res\\Miranda.ico"
+IDI_CLIENTMIRANDA06        ICON                    "res\\Miranda 06.ico"
+IDI_CLIENTMSN4_5           ICON                    "res\\MSN5.ico"
+IDI_CLIENTMSN6             ICON                    "res\\MSN6.ico"
+IDI_CLIENTMSN7             ICON                    "res\\MSN7.ico"
+IDI_CLIENTMSN8             ICON                    "res\\MSN8.ico"
+IDI_CLIENTTERRAIM          ICON                    "res\\TerraIM.ico"
 /////////////////////////////////////////////////////////////////////////////
 //
 // Version
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 0,0,0,25
- PRODUCTVERSION 0,0,0,25
+ FILEVERSION 0,0,0,26
+ PRODUCTVERSION 0,0,0,26
  FILEFLAGSMASK 0x17L
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -157,12 +165,12 @@ BEGIN
         BLOCK "041904b0"
         BEGIN
             VALUE "FileDescription", "Fingerprint client version icons module"
-            VALUE "FileVersion", "0, 0, 0, 25"
+            VALUE "FileVersion", "0, 0, 0, 26"
             VALUE "InternalName", "fingerprint"
             VALUE "LegalCopyright", "Copyright (C) 2006 Artem Shpynov, icons by Angeli-Ka"
             VALUE "OriginalFilename", "fingerprint.dll"
             VALUE "ProductName", "Fingerprint client version icons module"
-            VALUE "ProductVersion", "0, 0, 0, 25"
+            VALUE "ProductVersion", "0, 0, 0, 26"
         END
     END
     BLOCK "VarFileInfo"

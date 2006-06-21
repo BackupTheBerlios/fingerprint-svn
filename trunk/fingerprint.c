@@ -106,7 +106,7 @@ PLUGINLINK *pluginLink;
 PLUGININFO pluginInfo={
   sizeof(PLUGININFO),
     "Fingerprint",
-    PLUGIN_MAKE_VERSION(0,0,0,25),
+    PLUGIN_MAKE_VERSION(0,0,0,26),
     "Fingerprint (client version) icons module set extra icon of your buddyes according to their client version",
     "Artem Shpynov, Angeli-Ka",
     "shpynov@nm.ru",
@@ -288,6 +288,8 @@ HICON LoadIconFromExternalFile(char *filename,int i,BOOL UseLibrary,BOOL registe
   case 4:	SectName="Client Icons/Mobile";		break;
   case 5:	SectName="Client Icons/Other";		break;
   case 6:	SectName="Client Icons/Miranda";	break;
+  case 7:	SectName="Client Icons/MSN";     	break;
+  case 8:	SectName="Client Icons/Yahoo";     	break;
   default:  SectName="Client Icons";
   }
   GetModuleFileNameA(g_hInst, szMyPath, MAX_PATH);
