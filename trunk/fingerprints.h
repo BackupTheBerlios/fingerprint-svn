@@ -173,6 +173,7 @@ KN_FP_MASK def_kn_fp_mask[]=
 	{"client_Spik",             "*Spik*",               "Spik",                 NULL, IDI_CLIENTSPIK,0xFF,2},
 	{"client_Kadu",             "*kadu*",               "Kadu",                 NULL, IDI_CLIENTKADU,0xFF,2},
 	{"client_Imeem",            "*imeem*",              "Imeem",                NULL, IDI_CLIENTIMEEM,0xFF,2},
+	{"client_PyICQ-t",          "PyICQ-t*",              "PyICQ-t",                NULL, IDI_CLIENTPYICQT,0xFF,2},
 
 	{"client_webmessenger",     "Webmessenger*",        "Webmessenger",         NULL, IDI_CLIENTWEBMESSENGER,0xFF,7},
 	{"client_MSN 8.x",          "MSN 8.*",              "MSN 8.x",              NULL, IDI_CLIENTMSN8,0xFF,7},
