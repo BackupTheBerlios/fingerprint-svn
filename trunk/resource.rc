@@ -142,14 +142,47 @@ IDI_CLIENTMSN6             ICON                    "res\\MSN6.ico"
 IDI_CLIENTMSN7             ICON                    "res\\MSN7.ico"
 IDI_CLIENTMSN8             ICON                    "res\\MSN8.ico"
 IDI_CLIENTTERRAIM          ICON                    "res\\TerraIM.ico"
+IDI_CLIENTMIRC             ICON                    "res\\mIRC.ico"
+IDI_CLIENTXCHAT            ICON                    "res\\Xchat.ico"
+IDI_CLIENTEGGDROP          ICON                    "res\\Eggdrop.ico"
+IDI_CLIENTKLIENT           ICON                    "res\\Klient.ico"
+IDI_CLIENTIRSSI            ICON                    "res\\Irssi.ico"
+IDI_CLIENTEPLUS            ICON                    "res\\EPlus.ico"
+IDI_CLIENTEMULE            ICON                    "res\\EMule.ico"
+IDI_CLIENTPJIRC            ICON                    "res\\PJIRC.ico"
+IDI_CLIENTZIPTORRENT       ICON                    "res\\Zip Torrent.ico"
+IDI_CLIENTPSYBNC           ICON                    "res\\PsyBNC.ico"
+IDI_CLIENTMEEBO            ICON                    "res\\Meebo.ico"
+IDI_CLIENTADIUMX           ICON                    "res\\AdiumX.ico"
+IDI_CLIENTPYICQT           ICON                    "res\\PyICQt.ico"
+IDI_CLIENTKADU             ICON                    "res\\Kadu.ico"
+IDI_CLIENTIMEEM            ICON                    "res\\Imeem.ico"
+IDI_CLIENTKVIRC            ICON                    "res\\KVIrc.ico"
+IDI_CLIENTCOLLOQUY         ICON                    "res\\Colloquy.ico"
+IDI_CLIENTHYDRAIRC         ICON                    "res\\HydraIRC.ico"
+IDI_CLIENTWEECHAT          ICON                    "res\\WeeChat.ico"
+IDI_CLIENTXCHATGNOME       ICON                    "res\\XchatGnome.ico"
+IDI_CLIENTXCHATAQUA        ICON                    "res\\XchatAqua.ico"
+IDI_CLIENTOPERA            ICON                    "res\\Opera.ico"
+IDI_CLIENTCHATZILLA        ICON                    "res\\Chatzilla.ico"
+
+
+
+
+
+
+
+
+
+
 /////////////////////////////////////////////////////////////////////////////
 //
 // Version
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 0,0,0,26
- PRODUCTVERSION 0,0,0,26
+ FILEVERSION 0,0,0,27
+ PRODUCTVERSION 0,0,0,27
  FILEFLAGSMASK 0x17L
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -165,12 +198,12 @@ BEGIN
         BLOCK "041904b0"
         BEGIN
             VALUE "FileDescription", "Fingerprint client version icons module"
-            VALUE "FileVersion", "0, 0, 0, 26"
+            VALUE "FileVersion", "0, 0, 0, 27"
             VALUE "InternalName", "fingerprint"
-            VALUE "LegalCopyright", "Copyright (C) 2006 Artem Shpynov, icons by Angeli-Ka"
+            VALUE "LegalCopyright", "Copyright (C) 2006 Artem Shpynov,Angeli-Ka"
             VALUE "OriginalFilename", "fingerprint.dll"
             VALUE "ProductName", "Fingerprint client version icons module"
-            VALUE "ProductVersion", "0, 0, 0, 26"
+            VALUE "ProductVersion", "0, 0, 0, 27"
         END
     END
     BLOCK "VarFileInfo"

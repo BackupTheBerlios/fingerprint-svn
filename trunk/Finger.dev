@@ -1,6 +1,6 @@
 [Project]
 FileName=Finger.dev
-Name=Finger
+Name=Fingerprint
 UnitCount=5
 Type=3
 Ver=1
@@ -17,8 +17,8 @@ IsCpp=0
 Icon=
 ExeOutput=.\output
 ObjectOutput=.\output
-OverrideOutput=0
-OverrideOutputName=Finger.dll
+OverrideOutput=1
+OverrideOutputName=Fingerprint.dll
 HostApplication=
 Folders=
 CommandLine=

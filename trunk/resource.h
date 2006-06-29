@@ -40,6 +40,8 @@
 #define IDI_CLIENTPROTEUS		        125
 #define IDI_CLIENTINSTAN_T		        126
 #define IDI_CLIENTTERRAIM               127
+#define IDI_CLIENTADIUMX                128
+#define IDI_CLIENTMEEBO                 129
 
 #define IDI_CLIENTAGILE                 200
 #define IDI_CLIENTMOBICQ                201
@@ -112,6 +114,9 @@
 #define IDI_CLIENTGMAIL                 625
 #define IDI_CLIENTCONFERENCE            626
 #define IDI_CLIENTSPIK                  627
+#define IDI_CLIENTPYICQT                628
+#define IDI_CLIENTKADU                  629
+#define IDI_CLIENTIMEEM                 630
 
 #define IDI_CLIENTMRA			        700
 #define IDI_CLIENTSKYPE2		        701
@@ -126,8 +131,24 @@
 #define	IDI_CLIENTMSN7		            803
 #define	IDI_CLIENTMSN8		            804
 
-
-
+#define	IDI_CLIENTMIRC		            900
+#define	IDI_CLIENTXCHAT		            901
+#define	IDI_CLIENTEGGDROP		        902
+#define	IDI_CLIENTKLIENT		        903
+#define	IDI_CLIENTIRSSI		            904
+#define	IDI_CLIENTEPLUS		            905
+#define	IDI_CLIENTEMULE		            906
+#define	IDI_CLIENTPJIRC		            907
+#define	IDI_CLIENTZIPTORRENT		    908
+#define	IDI_CLIENTPSYBNC		        909
+#define	IDI_CLIENTKVIRC		            910
+#define	IDI_CLIENTCOLLOQUY		        911
+#define	IDI_CLIENTHYDRAIRC		        912
+#define	IDI_CLIENTWEECHAT		        913
+#define	IDI_CLIENTXCHATGNOME		    914
+#define	IDI_CLIENTXCHATAQUA		        915
+#define	IDI_CLIENTOPERA		            916
+#define	IDI_CLIENTCHATZILLA		        917
 
 // Next default values for new objects
 // 
