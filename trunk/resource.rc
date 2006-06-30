@@ -165,14 +165,14 @@ IDI_CLIENTXCHATGNOME       ICON                    "res\\XchatGnome.ico"
 IDI_CLIENTXCHATAQUA        ICON                    "res\\XchatAqua.ico"
 IDI_CLIENTOPERA            ICON                    "res\\Opera.ico"
 IDI_CLIENTCHATZILLA        ICON                    "res\\Chatzilla.ico"
-
-
-
-
-
-
-
-
+IDI_CLIENTPIRC             ICON                    "res\\pIRC.ico"
+IDI_CLIENTBERSIRC          ICON                    "res\\Bersirc.ico"
+IDI_CLIENTIRCN             ICON                    "res\\IrcN.ico"
+IDI_CLIENTMAXXIM           ICON                    "res\\MaxxIM.ico"
+IDI_CLIENTMIRABEL          ICON                    "res\\Mirabel.ico"
+IDI_CLIENTNINJIA           ICON                    "res\\Ninjia.ico"
+IDI_CLIENTISCRIPT          ICON                    "res\\IScript.ico"
+IDI_CLIENTCGIIRC           ICON                    "res\\Cgiirc.ico"
 
 
 /////////////////////////////////////////////////////////////////////////////

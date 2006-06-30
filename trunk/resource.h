@@ -149,6 +149,14 @@
 #define	IDI_CLIENTXCHATAQUA		        915
 #define	IDI_CLIENTOPERA		            916
 #define	IDI_CLIENTCHATZILLA		        917
+#define	IDI_CLIENTPIRC	                918
+#define	IDI_CLIENTBERSIRC		        919
+#define	IDI_CLIENTIRCN		            920
+#define	IDI_CLIENTMAXXIM		        921
+#define	IDI_CLIENTMIRABEL		        922
+#define	IDI_CLIENTNINJIA		        923
+#define	IDI_CLIENTISCRIPT		        924
+#define	IDI_CLIENTCGIIRC		        925
 
 // Next default values for new objects
 // 

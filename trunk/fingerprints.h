@@ -55,13 +55,13 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
 KN_FP_MASK def_kn_fp_mask[]=
 	{	// IconName			          Mask		          Icon caption    	    NULL  ICON_RESOURCE_ID
-	{"client_Miranda,ICQJ_BM",  "|Miranda IM*ICQ v1.3*|Miranda IM*ICQ BM*",    "Miranda IM(ICQJ_BM)",	NULL, IDI_CLIENTMIRANDA_ICQBM,0xFF,6},
-	{"client_Miranda,ICQJ",     "Miranda IM*ICQ v0.3*", "Miranda IM(ICQJ)",   	NULL, IDI_CLIENTMIRANDA_ICQJ,0xFF,6},
-	{"client_Miranda,ICQ_ISee", "Miranda IM*ICQ v0.4*", "Miranda IM(ICQ_ISee)",	NULL, IDI_CLIENTMIRANDA_ICQISEE,0xFF,6},
-	{"client_Miranda AimOscar", "Miranda IM*AimOscar*", "Miranda AimOscar",     NULL, IDI_CLIENTMIRANDA_AIMOSCAR,0xFF,6},
-	{"client_Miranda0.4",       "|Miranda IM 0.4*|Miranda IM 0.3*","Miranda IM 0.4.x-0.3.x", NULL, IDI_CLIENTMIRANDA04,0xFF,6},
-	{"client_Miranda0.5",       "Miranda IM 0.5*",      "Miranda IM 0.5.x",     NULL, IDI_CLIENTMIRANDA05,0xFF,6},
-	{"client_Miranda0.6",       "Miranda IM 0.6*",      "Miranda IM 0.6.x",     NULL, IDI_CLIENTMIRANDA06,0xFF,6},
+	{"client_Miranda,ICQJ_BM",  "|Miranda*ICQ v1.3*|Miranda IM*ICQ BM*",    "Miranda IM(ICQJ_BM)",	NULL, IDI_CLIENTMIRANDA_ICQBM,0xFF,6},
+	{"client_Miranda,ICQJ",     "Miranda*ICQ v0.3*",    "Miranda IM(ICQJ)",   	NULL, IDI_CLIENTMIRANDA_ICQJ,0xFF,6},
+	{"client_Miranda,ICQ_ISee", "Miranda*ICQ v0.4*",    "Miranda IM(ICQ_ISee)",	NULL, IDI_CLIENTMIRANDA_ICQISEE,0xFF,6},
+	{"client_Miranda AimOscar", "Miranda*AimOscar*",    "Miranda AimOscar",     NULL, IDI_CLIENTMIRANDA_AIMOSCAR,0xFF,6},
+	{"client_Miranda0.4",       "|Miranda*0.4*|Miranda IM 0.3*","Miranda IM 0.4.x-0.3.x", NULL, IDI_CLIENTMIRANDA04,0xFF,6},
+	{"client_Miranda0.5",       "Miranda*0.5*",         "Miranda IM 0.5.x",     NULL, IDI_CLIENTMIRANDA05,0xFF,6},
+	{"client_Miranda0.6",       "Miranda*0.6*",         "Miranda IM 0.6.x",     NULL, IDI_CLIENTMIRANDA06,0xFF,6},
 	{"client_Miranda",          "Miranda*",             "Miranda IM",           NULL, IDI_CLIENTMIRANDA,0xFF,6},
 
 	{"client_Gaim",             "*Gaim*",               "Gaim",                 NULL, IDI_CLIENTGAIM,0xFF,5},
@@ -173,7 +173,7 @@ KN_FP_MASK def_kn_fp_mask[]=
 	{"client_Spik",             "*Spik*",               "Spik",                 NULL, IDI_CLIENTSPIK,0xFF,2},
 	{"client_Kadu",             "*kadu*",               "Kadu",                 NULL, IDI_CLIENTKADU,0xFF,2},
 	{"client_Imeem",            "*imeem*",              "Imeem",                NULL, IDI_CLIENTIMEEM,0xFF,2},
-	{"client_PyICQ-t",          "PyICQ-t*",              "PyICQ-t",                NULL, IDI_CLIENTPYICQT,0xFF,2},
+	{"client_PyICQ-t",          "PyICQ-t*",              "PyICQ-t",             NULL, IDI_CLIENTPYICQT,0xFF,1},
 
 	{"client_webmessenger",     "Webmessenger*",        "Webmessenger",         NULL, IDI_CLIENTWEBMESSENGER,0xFF,7},
 	{"client_MSN 8.x",          "MSN 8.*",              "MSN 8.x",              NULL, IDI_CLIENTMSN8,0xFF,7},
@@ -193,12 +193,21 @@ KN_FP_MASK def_kn_fp_mask[]=
 	{"client_KVIrc",            "KVIrc*",               "KVIrc",                NULL, IDI_CLIENTKVIRC,0xFF,9},	
 	{"client_Colloquy",         "Colloquy*",            "Colloquy",             NULL, IDI_CLIENTCOLLOQUY,0xFF,9},	
 	{"client_HydraIRC",         "HydraIRC*",            "HydraIRC",             NULL, IDI_CLIENTHYDRAIRC,0xFF,9},	
-	{"client_WeeChat",          "WeeChat*",             "WeeChat",              NULL, IDI_CLIENTWEECHAT,0xFF,9},	
+	{"client_WeeChat",          "*WeeChat*",            "WeeChat",              NULL, IDI_CLIENTWEECHAT,0xFF,9},	
 	{"client_XchatGnome",       "xchat*Gnome*",         "Xchat Gnome",          NULL, IDI_CLIENTXCHATGNOME,0xFF,9},	
 	{"client_XchatAqua",        "xchat*Aqua*",          "Xchat Aqua",           NULL, IDI_CLIENTXCHATAQUA,0xFF,9},	
-	{"client_Chatzilla",        "Chatzilla*",           "Chatzilla",            NULL, IDI_CLIENTCHATZILLA,0xFF,9},	 
+	{"client_Chatzilla",        "*Chatzilla*",          "Chatzilla",            NULL, IDI_CLIENTCHATZILLA,0xFF,9},	 
  	{"client_Opera chat",       "*opera*",              "Opera chat",           NULL, IDI_CLIENTOPERA,0xFF,9},	
   	{"client_XChat",            "xchat*",               "XChat",                NULL, IDI_CLIENTXCHAT,0xFF,9},	
+	{"client_pIRC",             "pIRC*",                "pIRC",                 NULL, IDI_CLIENTPIRC,0xFF,9},	
+	{"client_Bersirc",          "*bersirc*",            "Bersirc",              NULL, IDI_CLIENTBERSIRC,0xFF,9},	
+	{"client_IrcN",             "*IrcN*",               "IrcN",                 NULL, IDI_CLIENTIRCN,0xFF,9},	
+	{"client_MaxxIM",           "*MaxxIM*",             "MaxxIM",               NULL, IDI_CLIENTMAXXIM,0xFF,5},	
+	{"client_Mirabel script",   "*Mirabel*",            "Mirabel script",       NULL, IDI_CLIENTMIRABEL,0xFF,9},	
+	{"client_Ninjia",           "*ninjia*",             "Ninjia",               NULL, IDI_CLIENTNINJIA,0xFF,9},	
+	{"client-iScript",          "iScript*",             "iScript",              NULL, IDI_CLIENTISCRIPT,0xFF,9},	
+	{"client_CGI IRC",          "CGI:IRC*",             "CGI IRC",              NULL, IDI_CLIENTCGIIRC,0xFF,9},	
+
 
 	{"client_Unknown",          "*?*",                  "Unknown",              NULL, IDI_CLIENTUNKNOWN,0xFF,5},
     			// unknown should be allways last
