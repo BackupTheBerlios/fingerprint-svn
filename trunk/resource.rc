@@ -147,7 +147,6 @@ IDI_CLIENTXCHAT            ICON                    "res\\Xchat.ico"
 IDI_CLIENTEGGDROP          ICON                    "res\\Eggdrop.ico"
 IDI_CLIENTKLIENT           ICON                    "res\\Klient.ico"
 IDI_CLIENTIRSSI            ICON                    "res\\Irssi.ico"
-IDI_CLIENTEPLUS            ICON                    "res\\EPlus.ico"
 IDI_CLIENTEMULE            ICON                    "res\\EMule.ico"
 IDI_CLIENTPJIRC            ICON                    "res\\PJIRC.ico"
 IDI_CLIENTZIPTORRENT       ICON                    "res\\Zip Torrent.ico"
@@ -173,16 +172,29 @@ IDI_CLIENTMIRABEL          ICON                    "res\\Mirabel.ico"
 IDI_CLIENTNINJIA           ICON                    "res\\Ninjia.ico"
 IDI_CLIENTISCRIPT          ICON                    "res\\IScript.ico"
 IDI_CLIENTCGIIRC           ICON                    "res\\Cgiirc.ico"
-
-
+IDI_CLIENTPRELUDEICQ       ICON                    "res\\PreludeICQ.ico"
+IDI_CLIENTICECHAT          ICON                    "res\\Icechat.ico"
+IDI_CLIENTKONVERSATION     ICON                    "res\\Konversation.ico"
+IDI_CLIENTBABBEL           ICON                    "res\\Babbel.ico"
+IDI_CLIENTAMIRC            ICON                    "res\\AmIRC.ico"
+IDI_CLIENTKSIRC            ICON                    "res\\KSirc.ico"
+IDI_CLIENTSNAK             ICON                    "res\\Snak.ico"
+IDI_CLIENTXIRC             ICON                    "res\\Xirc.ico"
+IDI_CLIENTVIRC             ICON                    "res\\Virc2.ico"
+IDI_CLIENTSAVIRC           ICON                    "res\\Savirc.ico"
+IDI_CLIENTNETTALK          ICON                    "res\\Nettalk.ico"
+IDI_CLIENTCONVERSATION     ICON                    "res\\Conversation.ico"
+IDI_CLIENTWMIRC            ICON                    "res\\WmIRC.ico"
+IDI_CLIENTIRC              ICON                    "res\\IRC.ico"
+IDI_CLIENTMULE             ICON                    "res\\eMule mod.ico"
 /////////////////////////////////////////////////////////////////////////////
 //
 // Version
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 0,0,0,27
- PRODUCTVERSION 0,0,0,27
+ FILEVERSION 0,0,0,28
+ PRODUCTVERSION 0,0,0,28
  FILEFLAGSMASK 0x17L
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -198,12 +210,12 @@ BEGIN
         BLOCK "041904b0"
         BEGIN
             VALUE "FileDescription", "Fingerprint client version icons module"
-            VALUE "FileVersion", "0, 0, 0, 27"
+            VALUE "FileVersion", "0, 0, 0, 28"
             VALUE "InternalName", "fingerprint"
             VALUE "LegalCopyright", "Copyright (C) 2006 Artem Shpynov,Angeli-Ka"
             VALUE "OriginalFilename", "fingerprint.dll"
             VALUE "ProductName", "Fingerprint client version icons module"
-            VALUE "ProductVersion", "0, 0, 0, 27"
+            VALUE "ProductVersion", "0, 0, 0, 28"
         END
     END
     BLOCK "VarFileInfo"

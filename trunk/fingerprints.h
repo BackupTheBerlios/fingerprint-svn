@@ -110,6 +110,9 @@ KN_FP_MASK def_kn_fp_mask[]=
 	{"client_YAMIGO",           "YAMIGO*",              "YAMIGO",               NULL, IDI_CLIENTYAMIGO,0xFF,4},
 	{"client_Bombus",           "*Bombus*",             "Bombus",               NULL, IDI_CLIENTBOMBUS, 0xFF,4},
 	{"client_mChat",            "mChat*",               "mChat",                NULL, IDI_CLIENTMCHAT, 0xFF,4},
+	{"client_PreludeICQ",       "PreludeICQ*",          "PreludeICQ",           NULL, IDI_CLIENTPRELUDEICQ, 0xFF,4},
+	{"client_WmIRC",            "*WmIRC*",              "WmIRC",                NULL, IDI_CLIENTWMIRC, 0xFF,4},
+
 
 	{"client_ICQ for Mac",      "ICQ for Mac*",         "ICQ for Mac",          NULL, IDI_CLIENTICQMAC,0xFF,1},
 	{"client_&RQ",              "&RQ*",                 "&RQ",                  NULL, IDI_CLIENTRQ,0xFF,1},
@@ -167,7 +170,7 @@ KN_FP_MASK def_kn_fp_mask[]=
 	{"client_JETI",             "*JETI*",               "JETI",                 NULL, IDI_CLIENTJETI,0xFF,2},
 	{"client_Coccinella",       "*Coccinella*",         "Coccinella",           NULL, IDI_CLIENTCOCCINELLA,0xFF,2},
 	{"client_GAJIM",            "*GAJIM*",              "GAJIM",                NULL, IDI_CLIENTGAJIM,0xFF,2},
-	{"client_GTalk",            "*gtalk*",              "GTalk",                NULL, IDI_CLIENTGTALK,0xFF,2},
+	{"client_GTalk",            "*talk*",              "GTalk",                NULL, IDI_CLIENTGTALK,0xFF,2},
 	{"client_Gmail",            "*gmail*",              "Gmail",                NULL, IDI_CLIENTGMAIL,0xFF,2},
 	{"client_Conference bot",   "*conference*",         "Conference bot",       NULL, IDI_CLIENTCONFERENCE,0xFF,2},
 	{"client_Spik",             "*Spik*",               "Spik",                 NULL, IDI_CLIENTSPIK,0xFF,2},
@@ -183,7 +186,6 @@ KN_FP_MASK def_kn_fp_mask[]=
  	
  	{"client_mIRC",             "mIRC*",                "mIRC",                 NULL, IDI_CLIENTMIRC,0xFF,9},
    	{"client_Eggdrop",          "eggdrop*",             "Eggdrop",              NULL, IDI_CLIENTEGGDROP,0xFF,9},		
-   	{"client_ePlus",            "ePlus*",               "ePlus",                NULL, IDI_CLIENTEPLUS,0xFF,9},	
   	{"client_eMule",            "eMule*",               "eMule",                NULL, IDI_CLIENTEMULE,0xFF,9},	
   	{"client_ZipTorrent",       "ZipTorrent*",          "Zip Torrent",          NULL, IDI_CLIENTZIPTORRENT,0xFF,9},	
   	{"client_PJIRC",            "PJIRC*",               "PJIRC",                NULL, IDI_CLIENTPJIRC,0xFF,9},	
@@ -207,8 +209,19 @@ KN_FP_MASK def_kn_fp_mask[]=
 	{"client_Ninjia",           "*ninjia*",             "Ninjia",               NULL, IDI_CLIENTNINJIA,0xFF,9},	
 	{"client-iScript",          "iScript*",             "iScript",              NULL, IDI_CLIENTISCRIPT,0xFF,9},	
 	{"client_CGI IRC",          "CGI:IRC*",             "CGI IRC",              NULL, IDI_CLIENTCGIIRC,0xFF,9},	
-
-
+	{"client_Icechat",          "*Icechat*",            "Icechat",              NULL, IDI_CLIENTICECHAT,0xFF,9},	
+	{"client_Konversation",     "*Konversation*",       "Konversation",         NULL, IDI_CLIENTKONVERSATION,0xFF,9},	
+	{"client_Babbel",           "*Babbel*",             "Babbel",               NULL, IDI_CLIENTBABBEL,0xFF,9},	
+	{"client_AmIRC",            "*AmIRC*",              "AmIRC",                NULL, IDI_CLIENTAMIRC,0xFF,9},	
+	{"client_KSirc",            "*KSirc*",              "KSirc",                NULL, IDI_CLIENTKSIRC,0xFF,9},	
+	{"client_Virc",             "*Virc*",               "Virc",                 NULL, IDI_CLIENTVIRC,0xFF,9},	
+	{"client_Snak",             "*Snak*",               "Snak",                 NULL, IDI_CLIENTSNAK,0xFF,9},	
+	{"client_Savirc",           "*Savirc*",             "Savirc",               NULL, IDI_CLIENTSAVIRC,0xFF,9},	
+	{"client_Nettalk",          "*Nettalk*",            "Nettalk",              NULL, IDI_CLIENTNETTALK,0xFF,9},	
+	{"client_Conversation",     "*Conversation*",       "Conversation",         NULL, IDI_CLIENTCONVERSATION,0xFF,9},	
+	{"client_Xirc",             "*Xirc*",               "Xirc",                 NULL, IDI_CLIENTXIRC,0xFF,9},	
+  	{"client_eMule mod",        "|*mule*|ePlus*",       "eMule mods",           NULL, IDI_CLIENTMULE,0xFF,9},	
+	{"client_irc",              "*irc*",                "any irc",              NULL, IDI_CLIENTIRC,0xFF,9},	
 	{"client_Unknown",          "*?*",                  "Unknown",              NULL, IDI_CLIENTUNKNOWN,0xFF,5},
     			// unknown should be allways last
 };

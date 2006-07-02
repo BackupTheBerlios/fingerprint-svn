@@ -49,6 +49,7 @@
 #define IDI_CLIENTJIMM                  203
 #define IDI_CLIENTCOLIBRY               204
 #define IDI_CLIENTMCHAT	                205
+#define IDI_CLIENTPRELUDEICQ	        206
 
 #define IDI_CLIENTICQ2000               300
 #define IDI_CLIENTICQ2001               301
@@ -136,7 +137,7 @@
 #define	IDI_CLIENTEGGDROP		        902
 #define	IDI_CLIENTKLIENT		        903
 #define	IDI_CLIENTIRSSI		            904
-#define	IDI_CLIENTEPLUS		            905
+#define	IDI_CLIENTMULE		            905
 #define	IDI_CLIENTEMULE		            906
 #define	IDI_CLIENTPJIRC		            907
 #define	IDI_CLIENTZIPTORRENT		    908
@@ -157,6 +158,19 @@
 #define	IDI_CLIENTNINJIA		        923
 #define	IDI_CLIENTISCRIPT		        924
 #define	IDI_CLIENTCGIIRC		        925
+#define	IDI_CLIENTICECHAT		        926
+#define	IDI_CLIENTKONVERSATION		    927
+#define	IDI_CLIENTBABBEL		        928
+#define	IDI_CLIENTAMIRC		            929
+#define	IDI_CLIENTKSIRC		            930
+#define	IDI_CLIENTSNAK		            931
+#define	IDI_CLIENTXIRC		            932
+#define	IDI_CLIENTVIRC		            933
+#define	IDI_CLIENTSAVIRC		        934
+#define	IDI_CLIENTNETTALK		        935
+#define	IDI_CLIENTCONVERSATION		    936
+#define	IDI_CLIENTWMIRC		            937
+#define	IDI_CLIENTIRC		            938
 
 // Next default values for new objects
 // 

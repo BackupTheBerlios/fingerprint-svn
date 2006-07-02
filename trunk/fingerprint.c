@@ -106,7 +106,7 @@ PLUGINLINK *pluginLink;
 PLUGININFO pluginInfo={
   sizeof(PLUGININFO),
     "Fingerprint",
-    PLUGIN_MAKE_VERSION(0,0,0,27),
+    PLUGIN_MAKE_VERSION(0,0,0,28),
     "Fingerprint (client version) icons module set extra icon of your buddyes according to their client version",
     "Artem Shpynov, Angeli-Ka",
     "shpynov@nm.ru",
