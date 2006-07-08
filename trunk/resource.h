@@ -11,6 +11,9 @@
 #define IDI_CLIENTMIRANDA04             16
 #define IDI_CLIENTMIRANDA05             17
 #define IDI_CLIENTMIRANDA06             18
+#define IDI_CLIENTMIRANDAIRCMOD         19
+#define IDI_CLIENTMIRANDAIRC            20
+
 
 #define IDI_CLIENTAIM                   100
 #define IDI_CLIENTAIMTRITON             101
@@ -118,6 +121,7 @@
 #define IDI_CLIENTPYICQT                628
 #define IDI_CLIENTKADU                  629
 #define IDI_CLIENTIMEEM                 630
+#define IDI_CLIENTJABBIN                 631
 
 #define IDI_CLIENTMRA			        700
 #define IDI_CLIENTSKYPE2		        701
@@ -171,6 +175,7 @@
 #define	IDI_CLIENTCONVERSATION		    936
 #define	IDI_CLIENTWMIRC		            937
 #define	IDI_CLIENTIRC		            938
+#define	IDI_CLIENTMACIRSSI		        939
 
 // Next default values for new objects
 // 

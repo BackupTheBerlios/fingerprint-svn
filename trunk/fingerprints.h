@@ -59,6 +59,8 @@ KN_FP_MASK def_kn_fp_mask[]=
 	{"client_Miranda,ICQJ",     "Miranda*ICQ v0.3*",    "Miranda IM(ICQJ)",   	NULL, IDI_CLIENTMIRANDA_ICQJ,0xFF,6},
 	{"client_Miranda,ICQ_ISee", "Miranda*ICQ v0.4*",    "Miranda IM(ICQ_ISee)",	NULL, IDI_CLIENTMIRANDA_ICQISEE,0xFF,6},
 	{"client_Miranda AimOscar", "Miranda*AimOscar*",    "Miranda AimOscar",     NULL, IDI_CLIENTMIRANDA_AIMOSCAR,0xFF,6},
+	{"client_Miranda IRC",      "Miranda*IRC v 0.6*",    "Miranda IRC",          NULL, IDI_CLIENTMIRANDAIRC,0xFF,6},
+	{"client_Miranda IRC mod",  "Miranda*IRC v 0.7*",    "Miranda IRC mod",      NULL, IDI_CLIENTMIRANDAIRCMOD,0xFF,6},
 	{"client_Miranda0.4",       "|Miranda*0.4*|Miranda IM 0.3*","Miranda IM 0.4.x-0.3.x", NULL, IDI_CLIENTMIRANDA04,0xFF,6},
 	{"client_Miranda0.5",       "Miranda*0.5*",         "Miranda IM 0.5.x",     NULL, IDI_CLIENTMIRANDA05,0xFF,6},
 	{"client_Miranda0.6",       "Miranda*0.6*",         "Miranda IM 0.6.x",     NULL, IDI_CLIENTMIRANDA06,0xFF,6},
@@ -84,9 +86,10 @@ KN_FP_MASK def_kn_fp_mask[]=
 	{"client_Adium X",          "Adium X*",             "Adium X",              NULL, IDI_CLIENTADIUMX,0xFF,5},
 	{"client_Meebo",            "Meebo*",               "Meebo",                NULL, IDI_CLIENTMEEBO,0xFF,5},
 
-	{"client_Yahoo v5.x",       "<Yahoo 6*",            "Yahoo 5.x",            NULL, IDI_CLIENTYAHOO5,0xFF,8},
+	{"client_Yahoo v5.x",      "|<Yahoo 6*|libyahoo2*", "Yahoo 5.x",            NULL, IDI_CLIENTYAHOO5,0xFF,8},
 	{"client_Yahoo v6.x",       "Yahoo 6*",             "Yahoo 6.x",            NULL, IDI_CLIENTYAHOO6,0xFF,8},
 	{"client_Yahoo v7.x",       "Yahoo 7*",             "Yahoo 7.x",            NULL, IDI_CLIENTYAHOO7,0xFF,8},
+
 
 	{"client_AimSMS",           "SMS*",                 "Aim SMS",              NULL, IDI_CLIENTAIMSMS,0xFF,3},
 	{"client_Aim Triton",       "AIM*Triton*",          "AIM Triton",           NULL, IDI_CLIENTAIMTRITON,0xFF,3},
@@ -111,7 +114,7 @@ KN_FP_MASK def_kn_fp_mask[]=
 	{"client_Bombus",           "*Bombus*",             "Bombus",               NULL, IDI_CLIENTBOMBUS, 0xFF,4},
 	{"client_mChat",            "mChat*",               "mChat",                NULL, IDI_CLIENTMCHAT, 0xFF,4},
 	{"client_PreludeICQ",       "PreludeICQ*",          "PreludeICQ",           NULL, IDI_CLIENTPRELUDEICQ, 0xFF,4},
-	{"client_WmIRC",            "*WmIRC*",              "WmIRC",                NULL, IDI_CLIENTWMIRC, 0xFF,4},
+	{"client-wmIRC",            "*wmIRC*",              "wmIRC",                NULL, IDI_CLIENTWMIRC, 0xFF,4},
 
 
 	{"client_ICQ for Mac",      "ICQ for Mac*",         "ICQ for Mac",          NULL, IDI_CLIENTICQMAC,0xFF,1},
@@ -147,6 +150,7 @@ KN_FP_MASK def_kn_fp_mask[]=
 	{"client_YSM",              "YSM*",                 "YSM",                  NULL, IDI_CLIENTYSM,0xFF,1},
 	{"client_NanoICQ",          "NanoICQ*",             "NanoICQ",              NULL, IDI_CLIENTNANOICQ,0xFF,1},
 	{"client_spam bot",         "*spam bot*",           "spam bot",             NULL, IDI_CLIENTSPAMBOT,0xFF,5},
+	{"client_PyICQ-t",          "PyICQ-t*",              "PyICQ-t",             NULL, IDI_CLIENTPYICQT,0xFF,1},
 
 	{"client_Jabber_messenger", "Jabber Messenger*",    "Jabber Messenger",     NULL, IDI_CLIENTJABBER_MESSENGER, 0xFF,2},
 	{"client_Jajc",             "*Jajc*",               "Jajc",                 NULL, IDI_CLIENTJAJC,0xFF,2},
@@ -176,7 +180,7 @@ KN_FP_MASK def_kn_fp_mask[]=
 	{"client_Spik",             "*Spik*",               "Spik",                 NULL, IDI_CLIENTSPIK,0xFF,2},
 	{"client_Kadu",             "*kadu*",               "Kadu",                 NULL, IDI_CLIENTKADU,0xFF,2},
 	{"client_Imeem",            "*imeem*",              "Imeem",                NULL, IDI_CLIENTIMEEM,0xFF,2},
-	{"client_PyICQ-t",          "PyICQ-t*",              "PyICQ-t",             NULL, IDI_CLIENTPYICQT,0xFF,1},
+	{"client_Jabbin",          "*jabbin*",              "Jabbin",             NULL, IDI_CLIENTJABBIN,0xFF,2},
 
 	{"client_webmessenger",     "Webmessenger*",        "Webmessenger",         NULL, IDI_CLIENTWEBMESSENGER,0xFF,7},
 	{"client_MSN 8.x",          "MSN 8.*",              "MSN 8.x",              NULL, IDI_CLIENTMSN8,0xFF,7},
@@ -191,6 +195,7 @@ KN_FP_MASK def_kn_fp_mask[]=
   	{"client_PJIRC",            "PJIRC*",               "PJIRC",                NULL, IDI_CLIENTPJIRC,0xFF,9},	
   	{"client_psyBNC",           "psyBNC*",              "psyBNC",               NULL, IDI_CLIENTPSYBNC,0xFF,9},	
   	{"client_irssi",            "irssi*",               "irssi",                NULL, IDI_CLIENTIRSSI,0xFF,9},	
+  	{"client_macirssi",         "*macirssi*",           "macirssi",             NULL, IDI_CLIENTMACIRSSI,0xFF,9},	
  	{"client_Klient",           "Klient*",              "Klient",               NULL, IDI_CLIENTKLIENT,0xFF,9},	
 	{"client_KVIrc",            "KVIrc*",               "KVIrc",                NULL, IDI_CLIENTKVIRC,0xFF,9},	
 	{"client_Colloquy",         "Colloquy*",            "Colloquy",             NULL, IDI_CLIENTCOLLOQUY,0xFF,9},	

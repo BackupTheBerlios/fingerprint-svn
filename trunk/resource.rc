@@ -184,9 +184,14 @@ IDI_CLIENTVIRC             ICON                    "res\\Virc2.ico"
 IDI_CLIENTSAVIRC           ICON                    "res\\Savirc.ico"
 IDI_CLIENTNETTALK          ICON                    "res\\Nettalk.ico"
 IDI_CLIENTCONVERSATION     ICON                    "res\\Conversation.ico"
-IDI_CLIENTWMIRC            ICON                    "res\\WmIRC.ico"
+IDI_CLIENTWMIRC            ICON                    "res\\wmIRC.ico"
 IDI_CLIENTIRC              ICON                    "res\\IRC.ico"
 IDI_CLIENTMULE             ICON                    "res\\eMule mod.ico"
+IDI_CLIENTMIRANDAIRC       ICON                    "res\\Miranda IRC.ico"
+IDI_CLIENTMIRANDAIRCMOD    ICON                    "res\\Miranda IRC mod.ico"
+IDI_CLIENTMACIRSSI         ICON                    "res\\MacIrssi.ico"
+IDI_CLIENTJABBIN         ICON                    "res\\Jabbin.ico"
+
 /////////////////////////////////////////////////////////////////////////////
 //
 // Version
