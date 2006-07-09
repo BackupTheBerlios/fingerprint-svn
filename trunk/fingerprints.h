@@ -125,7 +125,7 @@ KN_FP_MASK def_kn_fp_mask[]=
 	{"client_ICQ 2000",         "ICQ*2000*",            "ICQ 2000",             NULL, IDI_CLIENTICQ2000,0xFF,1},
 	{"client_ICQ 2001b",        "ICQ*2001*",            "ICQ 2001",             NULL, IDI_CLIENTICQ2001,0xFF,1},
 	{"client_ICQ 2002",         "ICQ*2002*",            "ICQ 2002/2003a",       NULL, IDI_CLIENTICQ2002,0xFF,1},
-	{"client_ICQ 200",          "ICQ*2003*",            "ICQ 2003b",            NULL, IDI_CLIENTICQ2003,0xFF,1},
+	{"client_ICQ 2003",         "ICQ*2003*",            "ICQ 2003b",            NULL, IDI_CLIENTICQ2003,0xFF,1},
 	{"client_TICQ",             "TICQClient",           "TICQClient",           NULL, IDI_CLIENTTICQ, 0xFF,1},
 	{"client_ICat",             "IC@",                  "IC@",                  NULL, IDI_CLIENTICAT, 0xFF,1},
 	{"client_R_and_Q",          "R&Q*",                 "R&Q",                  NULL, IDI_CLIENTR_and_Q, 0xFF,1},
