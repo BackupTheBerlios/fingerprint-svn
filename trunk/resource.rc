@@ -106,7 +106,7 @@ IDI_CLIENTJIMM             ICON                    "res\\Jimm.ico"
 IDI_CLIENTUIM              ICON                    "res\\uIM.ico"
 IDI_CLIENTKONNEKT          ICON                    "res\\konnekt.ico"
 IDI_CLIENTAIMTRITON        ICON                    "res\\AIM Triton.ico"
-IDI_CLIENTAIMSMS	       ICON                    "res\\AimSMS.ico"
+IDI_CLIENTAIMSMS	       ICON                    "res\\Aim SMS.ico"
 IDI_CLIENTAIM4		       ICON                    "res\\Aim4.ico"
 IDI_CLIENTAIM5		       ICON                    "res\\Aim5.ico"
 IDI_CLIENTCOLIBRY	       ICON                    "res\\Colibry.ico"
@@ -120,9 +120,8 @@ IDI_CLIENTCOCCINELLA	   ICON                    "res\\Coccinella.ico"
 IDI_CLIENTINSTAN_T	       ICON                    "res\\Instan-t.ico"
 IDI_CLIENTGAJIM		       ICON                    "res\\Gajim.ico"
 IDI_CLIENTPROTEUS	       ICON                    "res\\Proteus.ico"
-IDI_CLIENTAIMGPRS	       ICON                    "res\\AimGPRS.ico"
+IDI_CLIENTAIMGPRS	       ICON                    "res\\Aim GPRS.ico"
 IDI_CLIENTAIMTOC	       ICON                    "res\\Aim Toc.ico"
-IDI_CLIENTMINIAIM	       ICON                    "res\\Miniaim.ico"
 IDI_CLIENTAIMEXPRESS	   ICON                    "res\\Aim Express.ico"
 IDI_CLIENTNAIM		       ICON                    "res\\Naim.ico"
 IDI_CLIENTSKYPE2	       ICON                    "res\\Skype2.ico"
@@ -149,11 +148,12 @@ IDI_CLIENTKLIENT           ICON                    "res\\Klient.ico"
 IDI_CLIENTIRSSI            ICON                    "res\\Irssi.ico"
 IDI_CLIENTEMULE            ICON                    "res\\EMule.ico"
 IDI_CLIENTPJIRC            ICON                    "res\\PJIRC.ico"
-IDI_CLIENTZIPTORRENT       ICON                    "res\\Zip Torrent.ico"
+IDI_CLIENTZIPTORRENT       ICON                    "res\\ZipTorrent.ico"
 IDI_CLIENTPSYBNC           ICON                    "res\\PsyBNC.ico"
 IDI_CLIENTMEEBO            ICON                    "res\\Meebo.ico"
 IDI_CLIENTADIUMX           ICON                    "res\\AdiumX.ico"
 IDI_CLIENTPYICQT           ICON                    "res\\PyICQt.ico"
+IDI_CLIENTPYICQ            ICON                    "res\\pyICQ.ico"
 IDI_CLIENTKADU             ICON                    "res\\Kadu.ico"
 IDI_CLIENTIMEEM            ICON                    "res\\Imeem.ico"
 IDI_CLIENTKVIRC            ICON                    "res\\KVIrc.ico"
@@ -190,16 +190,19 @@ IDI_CLIENTMULE             ICON                    "res\\eMule mod.ico"
 IDI_CLIENTMIRANDAIRC       ICON                    "res\\Miranda IRC.ico"
 IDI_CLIENTMIRANDAIRCMOD    ICON                    "res\\Miranda IRC mod.ico"
 IDI_CLIENTMACIRSSI         ICON                    "res\\MacIrssi.ico"
-IDI_CLIENTJABBIN         ICON                    "res\\Jabbin.ico"
-
+IDI_CLIENTJABBIN           ICON                    "res\\Jabbin.ico"
+IDI_CLIENTGTBB             ICON                    "res\\GTBB.ico"
+IDI_CLIENTMIRANDA_S7       ICON                    "res\\Miranda s7.ico"
+IDI_CLIENTUTORRENT         ICON                    "res\\uTorrent.ico"
+IDI_CLIENTTRILLIANPRO      ICON                    "res\\TrillianPro.ico"
 /////////////////////////////////////////////////////////////////////////////
 //
 // Version
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 0,0,0,28
- PRODUCTVERSION 0,0,0,28
+ FILEVERSION 0,0,0,29
+ PRODUCTVERSION 0,0,0,29
  FILEFLAGSMASK 0x17L
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -215,12 +218,12 @@ BEGIN
         BLOCK "041904b0"
         BEGIN
             VALUE "FileDescription", "Fingerprint client version icons module"
-            VALUE "FileVersion", "0, 0, 0, 28"
+            VALUE "FileVersion", "0, 0, 0, 29"
             VALUE "InternalName", "fingerprint"
             VALUE "LegalCopyright", "Copyright (C) 2006 Artem Shpynov,Angeli-Ka"
             VALUE "OriginalFilename", "fingerprint.dll"
             VALUE "ProductName", "Fingerprint client version icons module"
-            VALUE "ProductVersion", "0, 0, 0, 28"
+            VALUE "ProductVersion", "0, 0, 0, 29"
         END
     END
     BLOCK "VarFileInfo"
